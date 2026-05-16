@@ -313,7 +313,7 @@ pip install -r requirements.txt
 # Run Project
 
 ```bash
-python src/timeseries_forecasting.py
+python timeseries_forecasting.py
 ```
 
 ---
