@@ -407,9 +407,9 @@ Comparison using:
 
 AI/ML Engineer | Time-Series Forecasting | Deep Learning 
 
-GitHub: [https://github.com/YOUR_USERNAME](https://github.com/Chintan1545)
+GitHub: [https://github.com/Chintan1545](https://github.com/Chintan1545)
 
-LinkedIn: [https://linkedin.com/in/YOUR_LINKEDIN](https://www.linkedin.com/in/chintan-dabhi-4b3351356/)
+LinkedIn: [https://www.linkedin.com/in/chintan-dabhi-4b3351356/](https://www.linkedin.com/in/chintan-dabhi-4b3351356/)
 
 ---
 
