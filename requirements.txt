@@ -1,0 +1,9 @@
+numpy
+pandas
+matplotlib
+scikit-learn
+openpyxl
+timesfm
+chronos-forecasting
+torch
+transformers
