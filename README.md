@@ -1,4 +1,3 @@
-````markdown
 # TimesFM & Chronos Forecasting 
 
 Multi-product demand forecasting system using foundation time-series models, covariates, and business forecasting metrics.
