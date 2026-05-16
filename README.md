@@ -329,6 +329,22 @@ The pipeline generates:
 
 ---
 
+## Results
+
+### Model Leaderboard — Daily
+![Leaderboard Daily](outputs/leaderboard_daily.png)
+
+### Model Leaderboard — Hourly
+![Leaderboard Hourly](outputs/leaderboard_hourly.png)
+
+### Forecast Visualization — Daily
+![Forecasts Daily](outputs/forecasts_daily.png)
+
+### Metrics Explained
+![Metrics](outputs/metrics_explained.png)
+
+---
+
 # Example Outputs
 
 ## Forecast Visualization
