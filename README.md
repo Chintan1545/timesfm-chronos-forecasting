@@ -265,25 +265,25 @@ Purpose:
 # Project Structure
 
 ```text
-timesfm-chronos-forecasting-pipeline/
+timesfm-chronos-forecasting/
 │
 ├── data/
 │   └── complex_multi_product_order_forecasting_dataset.xlsx
 │
 ├── outputs/
-│   ├── forecasts_daily.png
-│   ├── forecasts_hourly.png
-│   ├── leaderboard_daily.png
-│   ├── leaderboard_hourly.png
-│   ├── metrics_explained.png
+│   ├── forecasts_daily.png          ← upload these
+│   ├── forecasts_hourly.png         ← upload these
+│   ├── leaderboard_daily.png        ← upload these
+│   ├── leaderboard_hourly.png       ← upload these
+│   ├── metrics_explained.png        ← upload these
 │   └── timeseries_forecasting_report.xlsx
 │
-├── timeseries_forecasting.py
-│
-├── README.md
-├── requirements.txt
-├── .gitignore
-└── LICENSE
+├── timeseries_forecasting.py        
+├── test_integration.py              
+├── requirements.txt                 
+├── README.md                        
+├── .gitignore                     
+└── LICENSE                          
 ```
 
 ---
@@ -326,6 +326,18 @@ The pipeline generates:
 * Leaderboard charts
 * Metrics visualization
 * Excel forecasting report
+
+---
+
+## Results
+
+| Model | Daily WMAPE ★ | Daily MAPE | Hourly WMAPE ★ | Hourly MAPE |
+|-------|:---:|:---:|:---:|:---:|
+| **SARIMAX** | **28.4%** | 33.3% | **38.5%** | 51.6% |
+| Chronos | 31.6% | 34.8% | 46.7% | 87.3% |
+| TimesFM | 41.2% | 46.9% | 74.9% | 76.3% |
+
+> ★ WMAPE is the primary metric — volume-weighted, handles zero demand, industry standard in FMCG/supply chain.
 
 ---
 
